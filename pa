@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROCK PAPER SCISSORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1 id="heading">&nbsp &nbsp ROCK &nbsp &nbsp; PAPER &nbsp &nbsp SCISSORS </h1>
+<div id="hand1">
+<img src="rock.png" id="C:\Users\vaish\Downloads\pngegg (2).png">
+</div>
+<div id="hand2">
+ <img src="rock.png" id="img2">
+</div>
+<button type ="button"onclick="game(0)" id="rock">ROCK</button>
+<button type ="button"onclick="game(1)" id="paper">PAPER</button>
+<button type ="button"onclick="game(2)" id="scissorS">SCISSOR</button>
+<button type ="button" onclick="start()" id="start">START</button>
+<script src="script.js"></script>
+</body>
+</html>
+</head>
+<body>
+
+    var random number = Math. Random(2)
+    console.log(random number)
+    var computer move = ' 1  '
+
+if(random number>0.01  && random number<=0.33){
+    computer move = 'Rock'
+}
+else if(random number>0.33 && random number<=0.66){
+    computer move='Paper'
+}
+else{
+    computer move='Scissor'
+}
+
+
+if(computermove ==  'Rock') {
+    alert('Tie !')
+}
+else if(computermove=='Scissor'){
+    alert('Win !')
+}
+else if(computermove == 'Paper'){
+    alert('Loose !')
+}
+
+
+
+
+    ">Rock</button>
+
+<button onclick="
+console.log('you have clicked on paper button so your move is paper')
+">Paper</button>
+
+<button onclick="
+console.log('you have clicked on scissor button so your move is scissor')
+">Scissor</button>
+
+
+
+
+
+    <script>
+
+
+   var num = Math.random()
+
+     var age = num*100;
+        console.log(age)
+
+        if(age >= 18 && age <= 35){
+         console.log("Your speed limit is 120 kmph")
+       }
+       else if (age>=36 && age<=65){
+         console.log("Your speed limit is 90 kmph");
+       }
+       else if(age>=66 && age<=90){
+         console.log("Your speed limit is 40kmph")
+       }
+        else
+    {
+         console.log("you are not eligible")
+        }
+
+
+
+
+    </script>
+</body>
+</html>
